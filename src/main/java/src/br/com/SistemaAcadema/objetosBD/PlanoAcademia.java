@@ -10,10 +10,10 @@ public class PlanoAcademia {
 
     private int codigoPlano;
 
-    public PlanoAcademia(Money valorMes, int quantidadeMes, Money valorTotal, int codigoPlano) {
+    public PlanoAcademia(Money valorMes, int quantidadeMes, double valorTotal, int codigoPlano) {
         this.valorMes = valorMes;
         this.quantidadeMes = quantidadeMes;
-        this.valorTotal = valorTotal.getValor() * quantidadeMes;
+        this.valorTotal = valorMes.multi(quantidadeMes);
         this.codigoPlano = codigoPlano;
     }
 

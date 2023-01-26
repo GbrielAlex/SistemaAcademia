@@ -1,10 +1,10 @@
 package src.br.com.SistemaAcadema;
 
-import br.com.SistemaAcadema.objetosBD.Cliente;
-import br.com.SistemaAcadema.objetosBD.Exercicio;
-import br.com.SistemaAcadema.objetosBD.Funcionario;
+
+import src.br.com.SistemaAcadema.objetosBD.*;
 
 import java.util.LinkedList;
+
 
 public class TreinoPersonalizado {
 
