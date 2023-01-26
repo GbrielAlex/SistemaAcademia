@@ -1,16 +1,14 @@
 package src.br.com.SistemaAcadema.objetosBD;
 
-import src.br.com.SistemaAcadema.funcionais.Money;
-
 import java.util.Calendar;
 
 public class Funcionario extends PessoaFisica {
 
     private String senhaAcesso;
-    private Money salario;
+    private double salario;
     private Calendar dataPagamente;
 
-    public Funcionario(String cpf, String nome, Calendar dataNascimento, String endereco, String senhaAcesso, Money salario, Calendar dataPagamente) {
+    public Funcionario(String cpf, String nome, Calendar dataNascimento, String endereco, String senhaAcesso, double salario, Calendar dataPagamente) {
         super(cpf, nome, dataNascimento, endereco);
         this.senhaAcesso = senhaAcesso;
         this.salario = salario;
@@ -26,7 +24,7 @@ public class Funcionario extends PessoaFisica {
         this.senhaAcesso = senhaAcesso;
     }
 
-    public Money getSalario() {
+    public double getSalario() {
         return salario;
     }
 

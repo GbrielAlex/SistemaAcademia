@@ -1,27 +1,26 @@
 package src.br.com.SistemaAcadema.objetosBD;
 
-import src.br.com.SistemaAcadema.funcionais.Money;
 
 public class PlanoAcademia {
 
-    private Money valorMes;
+    private double valorMes;
     private int quantidadeMes;
-    private Money valorTotal;
+    private double valorTotal;
 
     private int codigoPlano;
 
-    public PlanoAcademia(Money valorMes, int quantidadeMes, double valorTotal, int codigoPlano) {
+    public PlanoAcademia(double valorMes, int quantidadeMes, double valorTotal, int codigoPlano) {
         this.valorMes = valorMes;
         this.quantidadeMes = quantidadeMes;
-        this.valorTotal = valorMes.multi(quantidadeMes);
+        this.valorTotal = valorMes *quantidadeMes;
         this.codigoPlano = codigoPlano;
     }
 
-    public Money getValorMes() {
+    public double getValorMes() {
         return valorMes;
     }
 
-    public void setValorMes(Money valorMes) {
+    public void setValorMes(double valorMes) {
         this.valorMes = valorMes;
     }
 
@@ -33,11 +32,11 @@ public class PlanoAcademia {
         this.quantidadeMes = quantidadeMes;
     }
 
-    public Money getValorTotal() {
+    public double getValorTotal() {
         return valorTotal;
     }
 
-    public void setValorTotal(Money valorTotal) {
+    public void setValorTotal(double valorTotal) {
         this.valorTotal = valorTotal;
     }
 
