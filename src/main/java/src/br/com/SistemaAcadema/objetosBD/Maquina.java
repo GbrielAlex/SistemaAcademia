@@ -5,12 +5,12 @@ import java.util.Calendar;
 public class Maquina {
 
     private String nome;
-    private int id;
+    private String id;
     private String marca;
     private Calendar dataAquisicao;
     private boolean estadoMaquino;
 
-    public Maquina(String nome, int id, String marca, Calendar dataAquisicao, boolean estadoMaquino) {
+    public Maquina(String nome, String id, String marca, Calendar dataAquisicao, boolean estadoMaquino) {
         this.nome = nome;
         this.id = id;
         this.marca = marca;
@@ -26,13 +26,10 @@ public class Maquina {
         this.nome = nome;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getMarca() {
         return marca;

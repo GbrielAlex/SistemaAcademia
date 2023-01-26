@@ -1,5 +1,8 @@
 package src.br.com.SistemaAcadema.objetosBD;
 
+import src.br.com.SistemaAcadema.TreinoPersonalizado;
+import src.br.com.SistemaAcadema.funcionais.PessoaFisica;
+
 import java.util.Calendar;
 
 public class Cliente extends PessoaFisica {
@@ -9,6 +12,9 @@ public class Cliente extends PessoaFisica {
     private PlanoAcademia plano;
     private Calendar dataMatricula;
     private String patologias;
+    private Funcionario personal;
+    private TreinoPersonalizado treino;
+    private boolean situacao;
 
     public Cliente(String cpf, String nome, Calendar dataNascimento, String endereco, float gorduraCorporal, float peso, PlanoAcademia plano, Calendar dataMatricula, String patologias) {
         super(cpf, nome, dataNascimento, endereco);
@@ -17,6 +23,7 @@ public class Cliente extends PessoaFisica {
         this.plano = plano;
         this.dataMatricula = dataMatricula;
         this.patologias = patologias;
+        this.situacao = false;
 
     }
     public float getGorduraCorporal() {
@@ -57,5 +64,29 @@ public class Cliente extends PessoaFisica {
 
     public void setPatologias(String patologias) {
         this.patologias = patologias;
+    }
+
+    public Funcionario getPersonal() {
+        return personal;
+    }
+
+    public void setPersonal(Funcionario personal) {
+        this.personal = personal;
+    }
+
+    public TreinoPersonalizado getTreino() {
+        return treino;
+    }
+
+    public void setTreino(TreinoPersonalizado treino) {
+        this.treino = treino;
+    }
+
+    public boolean Situacao() {
+        return situacao;
+    }
+
+    public void setSituacao(boolean situacao) {
+        this.situacao = situacao;
     }
 }

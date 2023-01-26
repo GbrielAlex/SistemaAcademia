@@ -1,4 +1,4 @@
-package src.br.com.SistemaAcadema.objetosBD;
+package src.br.com.SistemaAcadema.funcionais;
 
 import java.util.Calendar;
 

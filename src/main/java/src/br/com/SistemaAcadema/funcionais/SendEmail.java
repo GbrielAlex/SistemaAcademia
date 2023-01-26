@@ -1,18 +1,35 @@
 package src.br.com.SistemaAcadema.funcionais;
 
-import java.util.Properties;
-
-import javax.mail.Message;
-import javax.mail.MessagingException;
-import javax.mail.PasswordAuthentication;
-import javax.mail.Session;
-import javax.mail.Transport;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeMessage;
+import org.apache.commons.mail.DefaultAuthenticator;
+import org.apache.commons.mail.SimpleEmail;
 
 public class SendEmail {
 
-
+//    public static void main(String[] args) {
+//
+//        String meuEmail = "gbrielti000@gmail.com";
+//        String minhaSenha = "qkktpxrykgirzvtt";
+//
+//
+//        SimpleEmail email = new SimpleEmail();
+//        email.setHostName("smtp.gmail.com");
+//        email.setSmtpPort(465);
+//        email.setAuthentication(meuEmail,minhaSenha);
+//        email.setSSLOnConnect(true);
+//
+//        try{
+//            email.setFrom(meuEmail);
+//            email.setSubject("Teste programa");
+//            email.setMsg("Isso é um teste");
+//            email.addTo("gbrielti096@gmail.com");
+//            email.send();
+//            System.out.println("email foi enviado");
+//
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+//
+//    }
 
 
 }

@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf43f247-26c9-47c5-a1f6-aaab0757897e" name="Changes" comment="0.02">
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/SistemaAcademia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/funcionais/SendEmail.java" afterDir="false" />
+    <list default="true" id="cf43f247-26c9-47c5-a1f6-aaab0757897e" name="Changes" comment="0.03">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/funcionais/Money.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/SistemaAcademia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/SistemaAcademia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/TreinoPersonalizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/TreinoPersonalizado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/funcionais/SendEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/funcionais/SendEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Maquina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Maquina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/PessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/funcionais/PessoaFisica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/PlanoAcademia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/PlanoAcademia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,11 +52,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/gbrie/Downloads/javax.mail.jar",
+    "last_opened_file_path": "C:/Users/gbrie/Downloads/commons-email-1.5.jar",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -61,7 +64,20 @@
       <recent name="C:\Users\gbrie\SistemaAcademia\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SendEmail">
+    <configuration name="SendEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.br.com.SistemaAcadema.funcionais.SendEmail" />
+      <module name="SistemaAcademia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.br.com.SistemaAcadema.funcionais.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SistemaAcademia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.br.com.SistemaAcadema.SistemaAcademia" />
       <module name="SistemaAcademia" />
@@ -77,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SendEmail" />
         <item itemvalue="Application.SistemaAcademia" />
       </list>
     </recent_temporary>
@@ -104,12 +121,20 @@
       <option name="project" value="LOCAL" />
       <updated>1674703144911</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0.03">
+      <created>1674739548118</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674739548118</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0.01" />
     <MESSAGE value="0.02" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.02" />
+    <MESSAGE value="0.03" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.03" />
   </component>
 </project>

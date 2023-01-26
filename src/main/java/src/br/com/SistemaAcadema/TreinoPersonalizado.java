@@ -4,6 +4,7 @@ package src.br.com.SistemaAcadema;
 import src.br.com.SistemaAcadema.objetosBD.*;
 
 import java.util.LinkedList;
+import java.util.List;
 
 
 public class TreinoPersonalizado {
@@ -12,9 +13,10 @@ public class TreinoPersonalizado {
     private Funcionario funcionario;
     private LinkedList<Exercicio> listaExecicios;
 
-    public TreinoPersonalizado(Cliente cliente, Funcionario funcionario) {
+    public TreinoPersonalizado(Cliente cliente, Funcionario funcionario, List<Exercicio> exercicios) {
         this.cliente = cliente;
         this.funcionario = funcionario;
+        this.listaExecicios = new LinkedList<>(exercicios);
     }
 
     public Cliente getCliente() {

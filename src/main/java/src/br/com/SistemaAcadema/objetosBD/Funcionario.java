@@ -1,5 +1,7 @@
 package src.br.com.SistemaAcadema.objetosBD;
 
+import src.br.com.SistemaAcadema.funcionais.PessoaFisica;
+
 import java.util.Calendar;
 
 public class Funcionario extends PessoaFisica {

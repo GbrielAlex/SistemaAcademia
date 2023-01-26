@@ -7,9 +7,9 @@ public class PlanoAcademia {
     private int quantidadeMes;
     private double valorTotal;
 
-    private int codigoPlano;
+    private String codigoPlano;
 
-    public PlanoAcademia(double valorMes, int quantidadeMes, double valorTotal, int codigoPlano) {
+    public PlanoAcademia(double valorMes, int quantidadeMes, double valorTotal,String codigoPlano) {
         this.valorMes = valorMes;
         this.quantidadeMes = quantidadeMes;
         this.valorTotal = valorMes *quantidadeMes;
@@ -40,7 +40,7 @@ public class PlanoAcademia {
         this.valorTotal = valorTotal;
     }
 
-    public int getCodigoPlano() {
+    public String getCodigoPlano() {
         return codigoPlano;
     }
 
