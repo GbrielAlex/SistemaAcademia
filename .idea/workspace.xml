@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf43f247-26c9-47c5-a1f6-aaab0757897e" name="Changes" comment="0.03">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="cf43f247-26c9-47c5-a1f6-aaab0757897e" name="Changes" comment="001.0%">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/SistemaAcademia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/SistemaAcademia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/TreinoPersonalizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/TreinoPersonalizado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/funcionais/SendEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/funcionais/SendEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Maquina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Maquina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/PessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/funcionais/PessoaFisica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/PlanoAcademia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/PlanoAcademia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,13 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674739548118</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="001.0%">
+      <created>1674749165214</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674749165214</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0.01" />
     <MESSAGE value="0.02" />
     <MESSAGE value="0.03" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.03" />
+    <MESSAGE value="001.0%" />
+    <option name="LAST_COMMIT_MESSAGE" value="001.0%" />
   </component>
 </project>
