@@ -10,13 +10,18 @@ public class Funcionario extends PessoaFisica {
     private double salario;
     private Calendar dataPagamente;
 
-    public Funcionario(String cpf, String nome, Calendar dataNascimento, String endereco, String senhaAcesso, double salario, Calendar dataPagamente) {
-        super(cpf, nome, dataNascimento, endereco);
+    private Boolean pagamentoEmDia;
+
+    public Funcionario(String cpf, String nome, Calendar dataNascimento,String email, String endereco, String senhaAcesso, double salario, Calendar dataPagamente) {
+        super(cpf, nome, dataNascimento, endereco, email);
         this.senhaAcesso = senhaAcesso;
         this.salario = salario;
         this.dataPagamente = dataPagamente;
         super.setNIVELACESSO(1);
+        this.pagamentoEmDia = true;
     }
+
+
 
     public String getSenhaAcesso() {
         return senhaAcesso;
@@ -37,4 +42,9 @@ public class Funcionario extends PessoaFisica {
     public void setDataPagamente(Calendar dataPagamente) {
         this.dataPagamente = dataPagamente;
     }
+
+    public void setPagamentoEmDia(){
+        pagamentoEmDia = true;
+    }
+
 }

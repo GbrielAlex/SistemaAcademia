@@ -2,7 +2,9 @@ package src.br.com.SistemaAcadema;
 
 import src.br.com.SistemaAcadema.objetosBD.*;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 
 public class SistemaAcademia {
@@ -11,6 +13,7 @@ public class SistemaAcademia {
     private HashMap<String, Cliente> mapaCLienteAcademia;
     private HashMap<String, Maquina> mapaMaquinasAcademia;
     private HashMap<String, Funcionario> mapaFuncionarios;
+    private ArrayList<Admin> listaAdmin;
 
     public void addPlano(PlanoAcademia plano){
         mapaPLanosAcademia.put(plano.getCodigoPlano(),plano);
@@ -45,6 +48,26 @@ public class SistemaAcademia {
         cliente.setTreino(treino);
         return treino;
 
+    }
+    public List<Cliente> emitirListaDeDevedores(){
+        LinkedList<Cliente> devedores = new LinkedList<>();
+        for (Cliente cliente:
+             mapaCLienteAcademia.values()) {
+            if (cliente.Situacao()){
+                devedores.add(cliente);
+            }
+        }
+        return devedores;
+    }
+    public void realizarPagamento(String cpf){
+        mapaCLienteAcademia.get(cpf).realizarPagamento();
+    }
+
+    public void realizarPagamentoFuncionario(String cpf,Admin admin, String senha ){
+        Funcionario funcionario = mapaFuncionarios.get(cpf);
+        if (listaAdmin.contains(admin) && admin.confirmar(senha) ){
+            admin.realizarPagamento(funcionario);
+        }
     }
 
 }

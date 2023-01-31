@@ -16,8 +16,9 @@ public class Cliente extends PessoaFisica {
     private TreinoPersonalizado treino;
     private boolean situacao;
 
-    public Cliente(String cpf, String nome, Calendar dataNascimento, String endereco, float gorduraCorporal, float peso, PlanoAcademia plano, Calendar dataMatricula, String patologias) {
-        super(cpf, nome, dataNascimento, endereco);
+
+    public Cliente(String cpf, String nome, Calendar dataNascimento, String endereco,String email, float gorduraCorporal, float peso, PlanoAcademia plano, Calendar dataMatricula, String patologias) {
+        super(cpf, nome, dataNascimento, endereco,email);
         this.gorduraCorporal = gorduraCorporal;
         this.peso = peso;
         this.plano = plano;
@@ -89,4 +90,11 @@ public class Cliente extends PessoaFisica {
     public void setSituacao(boolean situacao) {
         this.situacao = situacao;
     }
+
+    public String realizarPagamento(){
+        this.setSituacao(true);
+        return "Situação atuzalizada com sucesso";
+    }
+
+
 }

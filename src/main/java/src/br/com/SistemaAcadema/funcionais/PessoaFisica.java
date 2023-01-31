@@ -8,14 +8,16 @@ public class PessoaFisica {
     private String nome;
     private Calendar dataNascimento;
     private String endereco;
+    private String email;
     private int NIVELACESSO ;
 
-    public PessoaFisica(String cpf, String nome, Calendar dataNascimento, String endereco) {
+    public PessoaFisica(String cpf, String nome, Calendar dataNascimento, String endereco, String email) {
         this.cpf = cpf;
         this.nome = nome;
         this.dataNascimento = dataNascimento;
         this.endereco = endereco;
         this.NIVELACESSO = 0;
+        this.email = email;
     }
 
     public String getNome() {
@@ -49,6 +51,16 @@ public class PessoaFisica {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
+
+    public String getEmail() {
+
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
 
     public void setNIVELACESSO(int NIVELACESSO) {
         this.NIVELACESSO = NIVELACESSO;
