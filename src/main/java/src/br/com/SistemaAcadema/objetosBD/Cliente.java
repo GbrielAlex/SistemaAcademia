@@ -1,6 +1,6 @@
 package src.br.com.SistemaAcadema.objetosBD;
 
-import src.br.com.SistemaAcadema.TreinoPersonalizado;
+import src.br.com.SistemaAcadema.funcionais.TreinoPersonalizado;
 import src.br.com.SistemaAcadema.funcionais.PessoaFisica;
 
 import java.util.Calendar;

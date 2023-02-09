@@ -1,4 +1,4 @@
-package src.br.com.SistemaAcadema;
+package src.br.com.SistemaAcadema.funcionais;
 
 import src.br.com.SistemaAcadema.objetosBD.*;
 
@@ -59,6 +59,7 @@ public class SistemaAcademia {
         }
         return devedores;
     }
+
     public void realizarPagamento(String cpf){
         mapaCLienteAcademia.get(cpf).realizarPagamento();
     }

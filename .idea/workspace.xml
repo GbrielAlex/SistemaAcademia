@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf43f247-26c9-47c5-a1f6-aaab0757897e" name="Changes" comment="001.0%">
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/SistemaAcademiaFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Admin.java" afterDir="false" />
+    <list default="true" id="cf43f247-26c9-47c5-a1f6-aaab0757897e" name="Changes" comment="002.0%">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/SistemaAcademia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/SistemaAcademia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/funcionais/PessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/funcionais/PessoaFisica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/SistemaAcademia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/funcionais/SistemaAcademia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/SistemaAcademiaFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/funcionais/SistemaAcademiaFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/TreinoPersonalizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/funcionais/TreinoPersonalizado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/br/com/SistemaAcadema/objetosBD/Funcionario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +74,11 @@
       </method>
     </configuration>
     <configuration name="SistemaAcademia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.br.com.SistemaAcadema.SistemaAcademia" />
+      <option name="MAIN_CLASS_NAME" value="src.br.com.SistemaAcadema.funcionais.SistemaAcademia" />
       <module name="SistemaAcademia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.br.com.SistemaAcadema.*" />
+          <option name="PATTERN" value="src.br.com.SistemaAcadema.funcionais.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674787133314</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="002.0%">
+      <created>1675128332139</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675128332139</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -147,6 +152,7 @@
     <MESSAGE value="0.02" />
     <MESSAGE value="0.03" />
     <MESSAGE value="001.0%" />
-    <option name="LAST_COMMIT_MESSAGE" value="001.0%" />
+    <MESSAGE value="002.0%" />
+    <option name="LAST_COMMIT_MESSAGE" value="002.0%" />
   </component>
 </project>

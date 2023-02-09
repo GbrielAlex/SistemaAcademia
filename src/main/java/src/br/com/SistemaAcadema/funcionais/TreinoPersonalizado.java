@@ -1,4 +1,4 @@
-package src.br.com.SistemaAcadema;
+package src.br.com.SistemaAcadema.funcionais;
 
 
 import src.br.com.SistemaAcadema.objetosBD.*;
